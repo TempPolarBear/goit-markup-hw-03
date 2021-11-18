@@ -17,9 +17,9 @@
 <body>
     <header class="header">
         <!--header-->
-        <div class="container header-container">
+        <div class="container header-container-navigation">
             <nav class="header-navigation">
-                <a href="WebStudiol" lang="en" class="header-logo link">Web<span class="logo-black">Studio</span></a>
+                <a href="WebStudio" lang="en" class="header-logo link">Web<span class="logo-black">Studio</span></a>
                     <ul class="list header-list">
                         <li class="header-item"><a href="./index.html" class="link header-link">Студия</a></li>
                         <li class="header-item"><a href="./portfolio.html" class="link header-link">Портфолио</a></li>
@@ -33,11 +33,12 @@
         </div>
     </header>
     <main>
-            <section class="header-section">
-                    <p class="header-section-element">Эффективные решения для вашего бизнеса</p>
-                    <button type="button" class="header-button button">Заказать услугу</button>
-                </div>
-            </section>
+        <section class="header-section">
+            <div class="container header-container">
+                <h1 class="header-section-element">Эффективные решения для вашего бизнеса</h1>
+                <button type="button" class="header-button button">Заказать услугу</button>
+            </div>
+        </section>
             <!-- hero -->
         <section class="hero">
             <div class="container hero-container">
@@ -113,10 +114,10 @@
     <footer class="footer">
         <div class="container footer-container">
             <a href="WebStudio" lang="en" class="footer-logo link">Web<span class="logo-white">Studio</span></a>
-                <address>
                     <!--footer contact-->
+                <div class="footer-contact">
+                <address>
                     <ul class="list footter-list">
-                        <div class="footer-contact">
                             <li class="footer-item">
                                 <a href="https://goo.gl/maps/XNYLH9FZuyhQ3fS18" target="_blank" rel="noopener noreferrer" class=" footer-adress link">
                                     г. Киев, пр-т Леси Украинки, 26</a>
@@ -127,10 +128,10 @@
                             <li class="footer-item">
                                 <a href="tel:+380961111111" class="footer-tel link">+38 096 111 11 11</a>
                             </li>
-                        </div>
                     </ul>
+                </address>
+                        </div>
                 </div>
-            </address>
     </footer>
 </body>
 </html>
