@@ -153,7 +153,7 @@ body {
 .header-section {
   background-color: var(--second-bg-color);
   padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
   text-align: center;
 }
 
@@ -327,14 +327,13 @@ body {
 
 /*------------------- fillters -------------------*/
 
-.fillters-container {
+.fillters {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
 .fillters-list {
   display: flex;
-
   justify-content: center;
 }
 
@@ -387,8 +386,7 @@ body {
 }
 
 .portfolio-part {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 24px 20px 24px 20px;
 }
 
 .portfoloi-item:nth-child(3n) {
@@ -433,10 +431,6 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   padding-bottom: 20px;
-}
-
-.footer-contact {
-  margin-bottom: 60px;
 }
 
 .footer-item:not(:last-child) {
